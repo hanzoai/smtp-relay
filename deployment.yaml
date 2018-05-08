@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: smtp-relay
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: smtp-relay
+    spec:
+      containers:
+      - name: smtp-relay
+        image: gcr.io/hanzo-ai/smtp-relay
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        env:
+        - name: RELAY_AUTH_USER
+          value: admin@hanzo.ai
+        - name: RELAY_AUTH_PASS
+          value: yourpass
+        ports:
+        - containerPort: 80

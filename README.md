@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="smtp-relay" width="880"></p>
+
 # smtp-relay
 Simple HTTP API to relay messages to SMTP servers.
 

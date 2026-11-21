@@ -1,6 +1,9 @@
 <p align="center"><img src=".github/hero.svg" alt="smtp-relay" width="880"></p>
 
 # smtp-relay
+
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/smtp-relay&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/smtp-relay&ref=main&action=edit)
+
 Simple HTTP API to relay messages to SMTP servers.
 
 
